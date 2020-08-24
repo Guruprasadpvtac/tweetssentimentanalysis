@@ -1,5 +1,4 @@
 altair==4.1.0
-nltk
 astor==0.8.1
 attrs==19.3.0
 backcall==0.2.0
@@ -36,7 +35,7 @@ matplotlib==3.2.1
 mistune==0.8.4
 nbconvert==5.6.1
 nbformat==5.0.7
-nltk==3.4.4
+nltk==3.5.4
 notebook==6.0.3
 numpy==1.18.5
 oauthlib==3.1.0
