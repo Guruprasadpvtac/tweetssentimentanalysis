@@ -1,40 +1,50 @@
-# Tweet-Analyzer
+# Natural Language Toolkit (NLTK)
+[![PyPI](https://img.shields.io/pypi/v/nltk.svg)](https://pypi.python.org/pypi/nltk) 
+[![Travis](https://travis-ci.org/nltk/nltk.svg?branch=develop)](https://travis-ci.org/nltk/nltk)
 
-Web App Link : https://tweet-analyzer-tool.herokuapp.com/
+NLTK -- the Natural Language Toolkit -- is a suite of open source Python
+modules, data sets, and tutorials supporting research and development in Natural
+Language Processing.
 
-This is a cool web app integrated with twitter which takes the twitter handel as as input and does :
-
-1.Analyze the tweets of your favourite Personalities
-
-This tool performs the following tasks :
-1. Fetches the 5 most recent tweets from the given twitter handel
-2. Generates a Word Cloud
-3. Performs Sentiment Analysis a displays it in form of a Bar Graph
-
-2.This tool fetches the last 100 tweets from the twitter handel & Performs the following tasks
-Converts it into a DataFrame
-
-Cleans the text
-1. Analyzes Subjectivity of tweets and adds an additional column for it
-2. Analyzes Polarity of tweets and adds an additional column for it
-3. Analyzes Sentiments of tweets and adds an additional column for it
+For documentation, please visit [nltk.org](http://www.nltk.org/).
 
 
-This respository contains all the files for end to end model building and deployment of tweet analyzer web app
+## Contributing
 
-Procfile : To generate command to run the app
+Do you want to contribute to NLTK development? Great! Please read more details
+at [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Tweet_Analyzer.ipynb : Model building File
+See also [How to contribute to NLTK](http://www.nltk.org/contribute.html).
 
-Twitter Data : File created after every query on the web app
 
-Requirements.txt: Requirement file
+## Donate
 
-setup.sh : predefined file for streamlite on heroku
+Have you found the toolkit helpful?  Please support NLTK development by donating
+to the project via PayPal, using the link on the NLTK homepage.
 
-This app is created on a tool called Streamlit which saves you from the headache of front-end devlopment ,you can install it by:
-Streamlit documentation: https://docs.streamlit.io/en/latest/
 
-pip install streamlit
+## Citing
 
-& to run it on local host : streamlit run myfile.py
+If you publish work that uses NLTK, please cite the NLTK book, as follows:
+
+    Bird, Steven, Edward Loper and Ewan Klein (2009).
+    Natural Language Processing with Python.  O'Reilly Media Inc.
+
+
+## Copyright
+
+Copyright (C) 2001-2020 NLTK Project
+
+For license information, see [LICENSE.txt](LICENSE.txt).
+
+[AUTHORS.md](AUTHORS.md) have a list of everyone contributed to NLTK.
+
+
+### Redistributing
+
+- NLTK source code is distributed under the Apache 2.0 License.
+- NLTK documentation is distributed under the Creative Commons
+  Attribution-Noncommercial-No Derivative Works 3.0 United States license.
+- NLTK corpora are provided under the terms given in the README file for each
+  corpus; all are redistributable and available for non-commercial use.
+- NLTK may be freely redistributed, subject to the provisions of these licenses.
